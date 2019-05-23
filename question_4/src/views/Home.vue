@@ -6,18 +6,23 @@
     <section class="home-container">
       <HomeContainer />
     </section>
+    <section class="footer">
+      <Footer />
+    </section>
   </main>
 </template>
 
 <script>
 import NavBar from '@/components/NavBar.vue';
 import HomeContainer from '@/components/HomeContainer.vue';
+import Footer from '@/components/Footer.vue';
 
 export default {
   name: 'home',
   components: {
     NavBar,
     HomeContainer,
+    Footer
   },
 };
 </script>
@@ -33,5 +38,12 @@ export default {
   }
   .home-container {
     padding: 0.5rem 0;
+  }
+  .footer {
+    min-height: 5vh;
+    border-top: 1px solid #e9e9e9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 </style>
