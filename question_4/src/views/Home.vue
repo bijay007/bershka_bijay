@@ -4,7 +4,7 @@
       <NavBar />
     </section>
     <section class="home-container">
-      <HomeContainer />
+      <HomeContent />
     </section>
     <section class="footer">
       <Footer />
@@ -13,18 +13,18 @@
 </template>
 
 <script>
-  import NavBar from '@/components/NavBar.vue';
-  import HomeContainer from '@/components/HomeContainer.vue';
-  import Footer from '@/components/Footer.vue';
+import NavBar from '@/components/NavBar.vue';
+import HomeContent from '@/components/HomeContent.vue';
+import Footer from '@/components/Footer.vue';
 
-  export default {
-    name: 'home',
-    components: {
-      NavBar,
-      HomeContainer,
-      Footer,
-    },
-  };
+export default {
+  name: 'home',
+  components: {
+    NavBar,
+    HomeContent,
+    Footer,
+  },
+};
 </script>
 
 <style scoped>
