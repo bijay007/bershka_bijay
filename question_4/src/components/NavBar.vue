@@ -23,6 +23,11 @@
   .navbar-actions {
     position: relative;
   }
+  h3 {
+    margin: 1rem;
+    letter-spacing: 0.25rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
+  }
   img {
     height: 5vh;
     width: auto;

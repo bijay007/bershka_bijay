@@ -33,6 +33,6 @@
   }
   h3 {
     margin: 0.25rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif
   }
 </style>

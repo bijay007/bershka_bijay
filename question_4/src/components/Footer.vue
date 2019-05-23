@@ -8,7 +8,7 @@
 
 <style scoped>
   h4 {
-    margin: none;
+    font-style: oblique;
   }
 </style>
 
