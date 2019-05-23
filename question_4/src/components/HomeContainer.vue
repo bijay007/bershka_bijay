@@ -2,12 +2,15 @@
   <div class="home-wrapper">
     <div class="section-men">
       <h3>For HIM</h3>
-      <img src="../assets/mens_clothing.jpg">
+      <router-link to="/men">
+        <img src="../assets/mens_clothing.jpg">
+      </router-link>
     </div>
     <div class="section-women">
       <h3>For HER</h3>
-      <img src="../assets/womens_clothing.jpg">
-    </div>
+      <router-link to="/men">
+        <img src="../assets/womens_clothing.jpg">
+      </router-link>    </div>
   </div>
 </template>
 
@@ -23,8 +26,9 @@
     padding: 0.5rem;
   }
   img {
-    width: auto;
     height: 90%;
+    width: auto;
+    max-width: 100%;
   }
   img:hover {
     cursor: pointer;
@@ -33,6 +37,6 @@
   }
   h3 {
     margin: 0.25rem;
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
   }
 </style>

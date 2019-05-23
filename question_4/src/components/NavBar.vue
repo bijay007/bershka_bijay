@@ -1,7 +1,9 @@
 <template>
   <nav>
     <div class="navabar-logo">
-      <img src="../assets/logo-shop.png">
+      <router-link to="/">
+        <img src="../assets/logo-shop.png">
+      </router-link>
     </div>
     <div class="navbar-title">
       <h3>Bershka</h3>
@@ -19,6 +21,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0.5rem 4rem;
+    border-bottom: 1px solid #e9e9e9;
   }
   .navbar-actions {
     position: relative;

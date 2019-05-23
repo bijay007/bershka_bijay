@@ -13,19 +13,20 @@
 </template>
 
 <script>
-import NavBar from '@/components/NavBar.vue';
-import HomeContainer from '@/components/HomeContainer.vue';
-import Footer from '@/components/Footer.vue';
+  import NavBar from '@/components/NavBar.vue';
+  import HomeContainer from '@/components/HomeContainer.vue';
+  import Footer from '@/components/Footer.vue';
 
-export default {
-  name: 'home',
-  components: {
-    NavBar,
-    HomeContainer,
-    Footer
-  },
-};
+  export default {
+    name: 'home',
+    components: {
+      NavBar,
+      HomeContainer,
+      Footer,
+    },
+  };
 </script>
+
 <style scoped>
   .home {
     display: flex;
@@ -34,7 +35,6 @@ export default {
   }
   .navbar {
     min-height: 8vh;
-    border-bottom: 1px solid #e9e9e9;
   }
   .home-container {
     padding: 0.5rem 0;
