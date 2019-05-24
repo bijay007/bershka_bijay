@@ -34,13 +34,13 @@ export default {
     min-height: 100vh;
   }
   .navbar {
-    min-height: 8vh;
+    min-height: 9vh;
   }
   .home-container {
     padding: 0.5rem 0;
   }
   .footer {
-    min-height: 5vh;
+    min-height: 6vh;
     border-top: 1px solid #e9e9e9;
     display: flex;
     align-items: center;

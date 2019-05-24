@@ -1,14 +1,12 @@
 <template>
-  <div class="women-wrapper">
-    <Articles />
-  </div>
+  <Articles gender='Women' />
 </template>
 
 <script>
 import Articles from '@/components/Articles.vue';
 
 export default {
-  name: 'men',
+  name: 'women',
   components: {
     Articles,
   },

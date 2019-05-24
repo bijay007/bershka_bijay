@@ -1,7 +1,5 @@
 <template>
-  <div class="men-wrapper">
-    <Articles />
-  </div>
+  <Articles gender='Men' />
 </template>
 
 <script>

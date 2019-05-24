@@ -8,9 +8,10 @@
     </div>
     <div class="section-women">
       <h3>For HER</h3>
-      <router-link to="/men">
+      <router-link to="/women">
         <img src="../assets/womens_clothing.jpg">
-      </router-link>    </div>
+      </router-link>
+    </div>
   </div>
 </template>
 
@@ -38,5 +39,14 @@
   h3 {
     margin: 0.25rem;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  }
+  @media (max-width: 768px) {
+    .home-wrapper {
+      flex-direction: row;
+    }
+    .section-men, .section-women {
+      max-width: 50%;
+      height: 80vh;
+    }
   }
 </style>

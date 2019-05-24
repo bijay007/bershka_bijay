@@ -10,10 +10,22 @@
     </div>
     <div class="navbar-actions">
       <img src="../assets/icon-cart.png">
-      <span>{{0}}</span>
+      <span>{{count}}</span>
     </div>
   </nav>
 </template>
+
+<script>
+export default {
+  name: 'navbar',
+  computed: {
+    count() {
+      return this.$store.state.quantity;
+    },
+  },
+};
+</script>
+
 
 <style scoped>
   nav {
@@ -39,5 +51,7 @@
     position: absolute;
     top: 40%;
     left: 35%;
+    font-weight: bold;
+    color: rgba(255,0,0,0.8);
   }
 </style>
