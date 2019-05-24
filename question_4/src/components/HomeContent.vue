@@ -42,6 +42,7 @@
   }
   @media (max-width: 768px) {
     .home-wrapper {
+      /* Normally images in desktop mode fill whole row so we want them to fill less rowspace in mobile  */
       flex-direction: row;
     }
     .section-men, .section-women {

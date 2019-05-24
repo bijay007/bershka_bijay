@@ -1,6 +1,6 @@
 # bershka_clone
 
-## The idea of this application is to create a minimalistic prototype webpage for Bershka if it was founded today in a single day in another parallel universe.
+## The idea of this application is to create a minimalistic prototype webpage for `Bershka.es` if it was created today in another parallel universe.
 
 ## Project setup
 ```

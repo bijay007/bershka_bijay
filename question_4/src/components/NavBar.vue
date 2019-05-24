@@ -8,9 +8,12 @@
     <div class="navbar-title">
       <h3>Bershka</h3>
     </div>
-    <div class="navbar-actions">
+    <div class="navbar-actions" @mouseover="hover = true" @mouseleave="hover = false">
       <img src="../assets/icon-cart.png">
       <span>{{count}}</span>
+    </div>
+    <div v-if="hover" class="cart-mini-detail">
+      You have {{count}} elements in cart
     </div>
   </nav>
 </template>
@@ -18,6 +21,11 @@
 <script>
 export default {
   name: 'navbar',
+  data: function() {
+    return {
+      hover: false,
+    }
+  },
   computed: {
     count() {
       return this.$store.state.quantity;
@@ -53,5 +61,15 @@ export default {
     left: 35%;
     font-weight: bold;
     color: rgba(255,0,0,0.8);
+  }
+  .cart-mini-detail {
+    z-index: 10;
+    position: absolute;
+    right: 7%;
+    top: 6%;
+    width: 8rem;
+    border: 1px solid rgba(0,0,0,0.5);
+    border-radius: 5px;
+    padding: 0.5rem;
   }
 </style>
